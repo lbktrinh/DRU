@@ -6,7 +6,7 @@ The code will be updated soon.
 Official Pytorch implementation of `Dynamic Retraining-Updating Mean Teacher for Source-Free Object Detection, ECCV 2024` [paper](https://arxiv.org/pdf/2407.16497) .
 
 <p align="center">
-  <img width="95%" alt="DRU scheme" src="Figure_DRU_MT.pdf">
+  <img width="70%" alt="scheme_DRU" src="scheme_DRU.png">
 </p> 
 
 ## 1. Installation
