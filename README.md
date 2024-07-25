@@ -1,12 +1,15 @@
 # Dynamic Retraining-Updating Mean Teacher for Source-Free Object Detection (ECCV 2024)
 *Trinh Le Ba Khanh, Huy-Hung Nguyen, Long Hoang Pham, Duong Nguyen-Ngoc Tran and Jae Wook Jeon*
 
-The code will be updated soon.
-
-Official Pytorch implementation of `Dynamic Retraining-Updating Mean Teacher for Source-Free Object Detection, ECCV 2024` [paper](https://arxiv.org/pdf/2407.16497) .
+Official Pytorch implementation of `Dynamic Retraining-Updating Mean Teacher for Source-Free Object Detection, ECCV 2024` [paper](https://arxiv.org/pdf/2407.16497).
 
 <p align="center">
-  <img width="70%" alt="scheme_DRU" src="scheme_DRU.png">
+  <img width="75%" alt="scheme_DRU" src="scheme_DRU.png">
+</p> 
+
+The overview of our DRU method is presented in the following figure. For more details, please refer to the [paper](https://arxiv.org/pdf/2407.16497).
+<p align="center">
+  <img width="100%" alt="scheme_DRU" src="DRU_overview.png">
 </p> 
 
 ## 1. Installation
@@ -38,9 +41,9 @@ python test.py
 
 Our method used 3 popular SFOD benchmarks:
 
-- city2foggy: Cityscapes dataset (source domain) → FoggyCityscapes with foggy level 0.02 (target domain).
-- sim2city: Sim10k dataset (source domain) → Cityscapes with `car` class (target domain).
-- city2bdd: Cityscapes dataset (source domain) → Bdd100k-daytime (target domain).
+- city2foggy: Cityscapes (source domain) → FoggyCityscapes with foggy level 0.02 (target domain).
+- sim2city: Sim10k (source domain) → Cityscapes with `car` class (target domain).
+- city2bdd: Cityscapes (source domain) → Bdd100k-daytime (target domain).
 
 You can download the raw data from the official websites: [Cityscapes](https://www.cityscapes-dataset.com/downloads/),  [FoggyCityscapes](https://www.cityscapes-dataset.com/downloads/),  [Sim10k](https://fcav.engin.umich.edu/projects/driving-in-the-matrix), [Bdd100k](https://bdd-data.berkeley.edu/). The annotations are converted into COCO style, can download from [here](https://drive.google.com/file/d/1LB0wK9kO3eW8jpR2ZtponmYWe9x2KSiU/view?usp=sharing) (provided by [MRT-release](https://github.com/JeremyZhao1998/MRT-release)). The datasets and annotations are organized as:
 
@@ -141,7 +144,7 @@ If you find our paper or code useful, please cite our work:
 
 ## 6. Acknowledgement
 
-This project is built upon [MRT-release](https://github.com/JeremyZhao1998/MRT-release), [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR), [DS-ST](https://github.com/DZhaoXd/DT-ST) and [MIC](https://github.com/lhoyer/MIC), and we'd like to appreciate for their excellent works.
+This project is built upon [MRT-release](https://github.com/JeremyZhao1998/MRT-release), [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR), [DT-ST](https://github.com/DZhaoXd/DT-ST) and [MIC](https://github.com/lhoyer/MIC), and we'd like to appreciate for their excellent works.
 
 ## 7. Contact
 
