@@ -1,13 +1,13 @@
 # Dynamic Retraining-Updating Mean Teacher for Source-Free Object Detection (ECCV 2024)
 *Trinh Le Ba Khanh, Huy-Hung Nguyen, Long Hoang Pham, Duong Nguyen-Ngoc Tran and Jae Wook Jeon*
 
-Official Pytorch implementation of `Dynamic Retraining-Updating Mean Teacher for Source-Free Object Detection, ECCV 2024` [paper](https://arxiv.org/pdf/2407.16497).
+Official Pytorch implementation of `Dynamic Retraining-Updating Mean Teacher for Source-Free Object Detection, ECCV 2024` [paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06893.pdf).
 
 <p align="center">
   <img width="75%" alt="scheme_DRU" src="scheme_DRU.png">
 </p> 
 
-The overview of our DRU method is presented in the following figure. For more details, please refer to the [paper](https://arxiv.org/pdf/2407.16497).
+The overview of our DRU method is presented in the following figure. For more details, please refer to the [paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06893.pdf).
 <p align="center">
   <img width="100%" alt="scheme_DRU" src="DRU_overview.png">
 </p> 
@@ -137,7 +137,7 @@ If you find our paper or code useful, please cite our work:
   title={Dynamic Retraining-Updating Mean Teacher for Source-Free Object Detection},
   author={Trinh Le Ba Khanh, Huy-Hung Nguyen, Long Hoang Pham, Duong Nguyen-Ngoc Tran and Jae Wook Jeon},
   booktitle={ECCV},
-  pages={https://arxiv.org/pdf/2407.16497},
+  pages={328--344},
   year={2024}
 }
 ```
@@ -148,4 +148,4 @@ This project is built upon [MRT-release](https://github.com/JeremyZhao1998/MRT-r
 
 ## 7. Contact
 
-If you have any issue with code or paper, feel free to contact [```trinhlbk@skku.edu```](mailto:trinhlbk@skku.edu).
+If you have any issue with code or paper, feel free to contact: trinhlbk(at)skku.edu
