@@ -145,7 +145,3 @@ If you find our paper or code useful, please cite our work:
 ## 6. Acknowledgement
 
 This project is built upon [MRT-release](https://github.com/JeremyZhao1998/MRT-release), [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR), [DT-ST](https://github.com/DZhaoXd/DT-ST) and [MIC](https://github.com/lhoyer/MIC), and we'd like to appreciate for their excellent works.
-
-## 7. Contact
-
-If you have any issue with code or paper, feel free to contact: trinhlbk(at)skku.edu
